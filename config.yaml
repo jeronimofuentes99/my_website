@@ -1,0 +1,115 @@
+baseURL: https://jeronimo-blog.netlify.app/
+languageCode: en-us
+title: Portfolio Website for Jeronimo Fuentes
+theme: forty
+googleAnalytics: ''
+disqusShortname: ''
+params:
+  banner:
+    buttonText: Get Started
+    subtitle: A quick look into my life, interests, and background  
+    title: Jeronimo Fuentes' Webpage
+  contact:
+    address:
+      - city: London, NW1 4SA
+        country: United Kingdom
+        street: Regent's Park
+        title: Address
+    buttonClear: Clear
+    buttonSend: Send message
+    email:
+      - email: example@domain.com
+        title: jerofw@gmail.com
+    enable: yes
+    phone:
+      - phone: (000) 000-0000 x1234
+        title: 000 000 000
+  custom_css: []
+  custom_js: []
+  description: Your description
+  error404:
+    heading: Page couldn't be found
+    text: Please visit [this page](/)
+  favicon: favicon.ico
+  footer:
+    copyright: \# Company Name
+    enable: yes
+    quicklinks:
+      - alt: HTML5 UP
+        text: 'Design: '
+        url: https://www.html5up.net
+    social:
+      - icon: fa-twitter
+        label: Twitter
+        url: https://www.twitter.com
+      - icon: fa-facebook
+        label: Facebook
+        url: https://www.facebook.com/jeronimo.fuentes.12/
+      - icon: fa-instagram
+        label: Instagram
+        url: https://www.instagram.com/jerofuentesw/
+      - icon: fa-github
+        label: GitHub
+        url: https://github.com/jeronimofuentes99
+      - icon: fa-linkedin
+        label: LinkedIn
+        url: https://www.linkedin.com/in/jeronimof/
+  image: ''
+  name: Your name
+  navigation:
+    button1:
+      - name: Get Started
+        url: blogs
+    button2:
+      - name: Log In
+        url: '#'
+    links:
+      - name: Home
+        url: '#'
+      - name: About Me
+        url: blogs
+      - name: My Interests
+        url: blogs/ipsum
+      - name: Finance Articles
+        url: elements.html
+    menu: Menu
+    subtitle: By HTML5 Up
+    title: Forty
+  tiles:
+    enable: yes
+    showcase:
+      - image: bocconicampus.jpg
+        subtitle: List and description of courses from my Undergraduate Degree
+        title: Undergraduate Courses
+        url: blogs/aliquam
+      - image: t-campus.jpg
+        subtitle: List and description of courses from my Graduate Degree
+        title: Graduate Courses
+        url: blogs/tempus
+      - image: Rcoding.jpg
+        subtitle: Coursework from Data Analytics for Finance Course
+        title: Relevant Data Science Coursework
+        url: blogs/magna
+      - image: swimming.jpg
+        subtitle: What I enjoy outside the classroom
+        title: Extracurricular Activities
+        url: blogs/ipsum
+      - image: financial-times.webp
+        subtitle: Some articles I find interesting from Finance / Business press
+        title: Interesting Articles
+        url: blogs/ipsum
+      - image: Fotocv.png
+        subtitle: My Resume
+        title:  Curriculum-Vitae
+        url: blogs/ipsum
+  two:
+    buttonText: Get Started
+    enable: yes
+    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+      \n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \n    Pellentesque
+      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
+      pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
+      Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
+      amet pharetra et feugiat tempus."
+    title: Massa libero
+    url: blogs
