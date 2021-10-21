@@ -101,7 +101,7 @@ params:
       - image: Fotocv.png
         subtitle: My Resume
         title:  Curriculum-Vitae
-        url: blogs/ipsum
+        url: blogs/cv
   two:
     buttonText: Get Started
     enable: yes
