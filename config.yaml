@@ -58,33 +58,33 @@ params:
   name: Your name
   navigation:
     button1:
-      - name: Get Started
-        url: blogs
+      - name: Homework 2 Data Analytics
+        url: blogs/ciao
     button2:
       - name: Log In
         url: '#'
     links:
       - name: Home
         url: '#'
-      - name: About Me
-        url: blogs
+      - name: My CV
+        url: blogs/cv
       - name: My Interests
-        url: blogs/ipsum
+        url: blogs/extracurriculars
       - name: Finance Articles
-        url: elements.html
+        url: blogs/int_art
     menu: Menu
-    subtitle: By HTML5 Up
-    title: Forty
+    subtitle: 
+    title: Jeronimo Fuentes
   tiles:
     enable: yes
     showcase:
       - image: bocconicampus.jpg
-        subtitle: List and description of courses from my Undergraduate Degree
-        title: Undergraduate Courses
+        subtitle: List and link to courses from my Undergraduate Degree
+        title: Undergraduate Studies
         url: blogs/undergraduate
       - image: t-campus.jpg
-        subtitle: List and description of courses from my Graduate Degree
-        title: Graduate Courses
+        subtitle: Description and relevant links about my Masters experience
+        title: Graduate Studies
         url: blogs/graduate
       - image: Rcoding.jpg
         subtitle: Coursework from Data Analytics for Finance Course

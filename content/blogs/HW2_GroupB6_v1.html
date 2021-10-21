@@ -5,11 +5,11 @@ categories:
 date: "2021-09-30"
 description: 
 draft: false
-image: CV.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+image: hofinito.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
-slug: ciao # slug is the shorthand URL address... no spaces plz
-title: Link to my CV below
+slug: ciao/ # slug is the shorthand URL address... no spaces plz
+title: Homework 2 of Data Analytics 
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
@@ -23,8 +23,7 @@ title: Link to my CV below
 <pre class="r"><code>weather &lt;- 
   read_csv(&quot;https://data.giss.nasa.gov/gistemp/tabledata_v4/NH.Ts+dSST.csv&quot;, 
            skip = 1, 
-           na = &quot;***&quot;)
-  view(weather)</code></pre>
+           na = &quot;***&quot;)</code></pre>
 <p>Notice that, when using this function, we added two options: <code>skip</code> and <code>na</code>.</p>
 <ol style="list-style-type: decimal">
 <li>The <code>skip=1</code> option is there as the real data table only starts in Row 2, so we need to skip one row.</li>
@@ -39,8 +38,7 @@ title: Link to my CV below
 </ol>
 <pre class="r"><code>tidyweather &lt;- weather %&gt;%
                select(-c(&quot;J-D&quot;,&quot;D-N&quot;,&quot;DJF&quot;,&quot;MAM&quot;,&quot;JJA&quot;,&quot;SON&quot;)) %&gt;%  
-               pivot_longer(!Year,names_to=&quot;Month&quot;,values_to=&quot;delta&quot;)
-view(tidyweather)</code></pre>
+               pivot_longer(!Year,names_to=&quot;Month&quot;,values_to=&quot;delta&quot;)</code></pre>
 <p>Inspect your dataframe. It should have three variables now, one each for</p>
 <ol style="list-style-type: decimal">
 <li>year,</li>
@@ -86,8 +84,7 @@ ggplot(tidyweather, aes(x=date, y = delta))+
     Year %in% c(1951:1980) ~ &quot;1951-1980&quot;,
     Year %in% c(1981:2010) ~ &quot;1981-2010&quot;,
     TRUE ~ &quot;2011-present&quot;
-  ))
-view(comparison)</code></pre>
+  ))</code></pre>
 <p>Inspect the <code>comparison</code> dataframe by clicking on it in the <code>Environment</code> pane.</p>
 <p>Now that we have the <code>interval</code> variable, we can create a density plot to study the distribution of monthly deviations (<code>delta</code>), grouped by the different time periods we are interested in. Set <code>fill</code> to <code>interval</code> to group and colour the data by different time periods.</p>
 <pre class="r"><code>ggplot(comparison, aes(x=delta, fill=interval))+
@@ -162,9 +159,5 @@ perc_ci</code></pre>
        x = &quot;Delta&quot;, y = &quot;Frequency&quot;)+
   theme_economist()</code></pre>
 <p><img src="/blogs/HW2_GroupB6_v1_files/figure-html/calculate_CI_using_bootstrap-1.png" width="648" style="display: block; margin: auto;" /></p>
-<blockquote>
-<p>What is the data showing us? Please type your answer after (and outside!) this blockquote. You have to explain what you have done, and the interpretation of the result. One paragraph max, please!</p>
-</blockquote>
-<p>The bootstrap simulation is re sampling the temperature dataset from year 2011 to present. It helps us estimate the confidence intervals as shown on the histogram - the data follows a normal distribution, as expected according to the Central limit theorem, and we are 95% confident that the parameter is within the shown range of 1.01 and 1.11. We can thus infer that the estimates and confidence intervals created by bootstrapping will be very similar. We have also calculated the mean of 1.06 and standard deviation of 0.27 which tells us the temperature has increased since 2011 with some variation. The graph can be useful in judging the impact of global warming in the past decade.</p>
 </div>
 </div>

@@ -5,11 +5,11 @@ categories:
 date: "2021-09-30"
 description: 
 draft: false
-image: CV.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+image: hofinito.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
-slug: ciao # slug is the shorthand URL address... no spaces plz
-title: Link to my CV below
+slug: ciao/ # slug is the shorthand URL address... no spaces plz
+title: Homework 2 of Data Analytics 
 ---
 
 
@@ -62,7 +62,7 @@ weather <-
   read_csv("https://data.giss.nasa.gov/gistemp/tabledata_v4/NH.Ts+dSST.csv", 
            skip = 1, 
            na = "***")
-  view(weather)
+
 
 ```
 
@@ -86,7 +86,7 @@ You have two objectives in this section:
 tidyweather <- weather %>%
                select(-c("J-D","D-N","DJF","MAM","JJA","SON")) %>%  
                pivot_longer(!Year,names_to="Month",values_to="delta")
-view(tidyweather)
+
   
 ```
 
@@ -150,7 +150,7 @@ comparison <- tidyweather %>%
     Year %in% c(1981:2010) ~ "1981-2010",
     TRUE ~ "2011-present"
   ))
-view(comparison)
+
 ```
 
 Inspect the `comparison` dataframe by clicking on it in the `Environment` pane.
@@ -238,7 +238,3 @@ visualise(boot_delta) +
   theme_economist()
 
 ```
-
-> What is the data showing us? Please type your answer after (and outside!) this blockquote. You have to explain what you have done, and the interpretation of the result. One paragraph max, please!
-
-The bootstrap simulation is re sampling the temperature dataset from year 2011 to present. It helps us estimate the confidence intervals as shown on the histogram - the data follows a normal distribution, as expected according to the Central limit theorem, and we are 95% confident that the parameter is within the shown range of 1.01 and 1.11. We can thus infer that the estimates and confidence intervals created by bootstrapping will be very similar. We have also calculated the mean of 1.06 and standard deviation of 0.27 which tells us the temperature has increased since 2011 with some variation. The graph can be useful in judging the impact of global warming in the past decade.
