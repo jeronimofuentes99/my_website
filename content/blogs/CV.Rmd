@@ -5,13 +5,17 @@ categories:
 date: "2021-09-30"
 description: 
 draft: false
-image:  # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+image: CV.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
 slug: cv/ # slug is the shorthand URL address... no spaces plz
-title: My Curriculum-Vitae
+title: Find the link to my resume below
 ---
 
-## Please find below the link to download my Resume
-### [See CV Here](https://drive.google.com/file/d/1gpWQoB81Cu6Dxeyn80imjE96JnnhtT6U/view?usp=sharing)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### [Click here to view CV](https://drive.google.com/file/d/1gpWQoB81Cu6Dxeyn80imjE96JnnhtT6U/view?usp=sharing)
 

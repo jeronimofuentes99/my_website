@@ -81,11 +81,11 @@ params:
       - image: bocconicampus.jpg
         subtitle: List and description of courses from my Undergraduate Degree
         title: Undergraduate Courses
-        url: blogs/aliquam
+        url: blogs/undergraduate
       - image: t-campus.jpg
         subtitle: List and description of courses from my Graduate Degree
         title: Graduate Courses
-        url: blogs/tempus
+        url: blogs/graduate
       - image: Rcoding.jpg
         subtitle: Coursework from Data Analytics for Finance Course
         title: Relevant Data Science Coursework
