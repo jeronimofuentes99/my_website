@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Every week I select a list of articles that I find interesting for the average Finance student and professional 
 
 
-##### [**FINANCIAL TIMES**: Evergrande's plan to sell property services division collapses](https://www.ft.com/content/63bfa855-4756-40fb-90ce-03e773d5b45b)
+[**FINANCIAL TIMES**]: Evergrande's plan to sell property services division collapses](https://www.ft.com/content/63bfa855-4756-40fb-90ce-03e773d5b45b)
 
 ##### [**FINANCIAL TIMES**: Charting the UK’s path to net zero](https://www.ft.com/content/fc2de6f1-b6ca-4e36-aab2-8d0c13ded09d)
 

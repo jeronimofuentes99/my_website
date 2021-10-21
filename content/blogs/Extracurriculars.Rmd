@@ -1,0 +1,26 @@
+---
+categories:  
+- ""    #the front matter should be like the one found in, e.g., blog2.md. It cannot be like the normal Rmd we used
+- ""
+date: "2021-09-30"
+description: 
+draft: false
+image: golf.png # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
+keywords: ""
+slug: extracurriculars/ # slug is the shorthand URL address... no spaces plz
+title: What do I enjoy outside the classroom?
+---
+  
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Golf:** During my first 8 years of life, I lived on a house inside a golf course in Mexico City. Thus, at the age of 5 I started to play golf. After moving to Costa Rica, I continued to play golf at least a couple times per week. By the age of 12 I started to play the sport competitively. Eventually, I classified to represent the Costa Rica U18 team in the Central American Tournament; the biggest of its king of golf. Although nowadays I am not able to practice frequently, I hold a handicap of 8.
+
+**Swimming:** At the age of 12 I started to swim frequently. Eventually I was able to qualify to represent my school in the American Schools of Central America tournament in Nicaragua. Due to my performance in this tournament and academic results, I was awarded my school's Student Athlete Award. 
+
+**Math Olympics:** Throughout my time in highschool I have also been a Mathlete. I represented my highschool's math team in various tournaments. Moreover, I am a proud Silver Medal winner of the Costa Rican National Math Olympics. A nationwide contest organized by the Ministry of Education in which +3000 Mathletes participate each year. 
+
+**Formula 1** For the last 3 years I have gained a strong interest for Formula 1. I have had the opportunity to watch in person 3 Grand Prix. I have always been a fan of Checo Perez and Scuderia Red Bull. 

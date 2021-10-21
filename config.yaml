@@ -89,11 +89,11 @@ params:
       - image: Rcoding.jpg
         subtitle: Coursework from Data Analytics for Finance Course
         title: Relevant Data Science Coursework
-        url: blogs/magna
+        url: blogs/ciao
       - image: swimming.jpg
         subtitle: What I enjoy outside the classroom
         title: Extracurricular Activities
-        url: blogs/ipsum
+        url: blogs/extracurriculars
       - image: financial-times.webp
         subtitle: Some articles I find interesting from Finance / Business press
         title: Interesting Articles

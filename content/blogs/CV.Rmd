@@ -9,7 +9,7 @@ image: CV.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg
 
 keywords: ""
 slug: cv/ # slug is the shorthand URL address... no spaces plz
-title: Find the link to my resume below
+title: Link to my CV below
 ---
 
 ```{r setup, include=FALSE}

@@ -18,8 +18,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Programme Name: [Masters in Financial Analysis](https://www.london.edu/masters-degrees/masters-in-financial-analysis)
-### "Stand out from the competition with the Masters in Financial Analysis (MFA) for new graduates. Developed in consultation with the world’s leading financial organisations, this highly practical programme will equip you with the skills, knowledge and networks essential for a successful career in finance. Study full-time over 12 months in London – the capital of global finance – and learn from the world’s top academics and practitioners." -[LBS Website](https://www.london.edu/masters-degrees/masters-in-financial-analysis)
+"Stand out from the competition with the Masters in Financial Analysis (MFA) for new graduates. Developed in consultation with the world’s leading financial organisations, this highly practical programme will equip you with the skills, knowledge and networks essential for a successful career in finance. Study full-time over 12 months in London – the capital of global finance – and learn from the world’s top academics and practitioners." -[LBS Website](https://www.london.edu/masters-degrees/masters-in-financial-analysis)
+
 ##### [Click here to see the full list of core courses](https://www.london.edu/masters-degrees/masters-in-analytics-and-management/programme-content/core-courses)
+
 ##### [Click here to see the full list of possible electives](https://www.london.edu/masters-degrees/masters-in-analytics-and-management/programme-content/electives)
 
 #### [APPLY NOW!](https://www.london.edu/apply?programmeApplyOnlineParameterValue=148&apply=true&itemId=4529b4e4-f683-4a87-abd8-444dd9a4c8d7&servicePageReferer=4529b4e4-f683-4a87-abd8-444dd9a4c8d7)
